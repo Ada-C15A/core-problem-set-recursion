@@ -31,9 +31,6 @@ def bunny(count):
 
 
 # is_nested_parens
-def check_set(parens_pair):
-    return parens_pair == ("(", ")")
-
 def is_nested_parens(string_of_parens):
     if len(string_of_parens) == 0:
         return True
