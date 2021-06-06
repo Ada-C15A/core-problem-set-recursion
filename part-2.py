@@ -12,7 +12,6 @@ def search(array, query):
     return search(array[1:], query)
     
 
-# is_palindrome
 def is_palindrome(text):
     if not text:
         return True
